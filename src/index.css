@@ -1,0 +1,35 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #20243d;
+  background: #fffefa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus-visible {
+  outline: 3px solid #253b86;
+  outline-offset: 5px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
